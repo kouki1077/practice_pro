@@ -1,0 +1,102 @@
+html, body, header, nav, article, section, time, footer, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, blockquote, table, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  box-sizing: border-box;
+}
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#fefefe;
+}
+body{
+    min-width: 980px;
+    text-align: center;
+}
+img{
+  vertical-align: bottom;
+}
+
+
+/*header*/
+header{
+    background-image: url(img/header.jpg);
+    height: 698px
+}
+header p{
+    padding-top: 220px;
+}
+nav{
+    background-color: #333333;
+    height: 70px;
+    color: #fefefe;
+    font-size: 18px;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width:980px;
+    margin:0 auto;
+    line-height:70px;
+}
+.bggray{
+  background-color: #F5F5F5;
+}
+section {
+  padding-top: 69px;
+  padding-bottom: 80px;
+}
+
+#cnt_important, #cnt_difficult, #cnt_howto, #cnt_voice {
+  padding-top: 0;
+}
+.bggray2{
+  background-color: #E7E7E7;
+}
+#cnt_privilege{
+  background-color: #F8E7E8;
+}
+#cnt_content{
+  background-image: url(img/mori.png);
+  background-attachment: fixed;
+}
+#cnt_map img {
+  padding-bottom: 48px;
+}
+.btn {
+  margin: 40px 0 44px;
+}
+footer{
+  background-color: #333;
+  width: 100%;
+  margin: auto;
+  color: #fefefe;
+  line-height: 100px;
+  height: 100px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+#page_top{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
